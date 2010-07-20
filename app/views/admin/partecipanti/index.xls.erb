@@ -1,0 +1,39 @@
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Cognome</th>
+        <th>Nick</th>
+        <th>Mail</th>
+        <th>Telefono</th>
+        <th>Adulti</th>
+        <th>Bambini</th>
+        <th>Venerdi</th>
+        <th>Sabato</th>
+        <th>Pranzo D.</th>
+        <th>Offroad</th>
+        <th>Targa</th>
+        <th>Modello/anno</th>
+        <th>Caparra</th>
+        <th>Versato</th>
+    </tr>
+
+<% @partecipanti.each do |partecipante| %>
+  <tr>
+    <td><%=h partecipante.nome %></td>
+    <td><%=h partecipante.cognome %></td>
+    <td><%=h partecipante.nick %></td>
+    <td><%=h partecipante.mail %></td>
+    <td><%=h partecipante.telefono %></td>
+    <td><%=h partecipante.adulti %></td>
+    <td><%=h partecipante.bambini %></td>
+    <td><%=h partecipante.venerdi %></td>
+    <td><%=h partecipante.sabato %></td>
+    <td><%=h partecipante.pranzo_domenica %></td>
+    <td><%=h partecipante.offroad %></td>
+    <td><%=h partecipante.targa %></td>
+    <td><%=h partecipante.modello_anno %></td>
+    <td><%=h partecipante.caparra %></td>
+    <td><%=h partecipante.versato %></td>
+  </tr>
+<% end %>
+</table>

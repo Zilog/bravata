@@ -7,7 +7,7 @@
         <%= stylesheet_link_tag '960' %>
     </head>
     <body>
-        <div id="header" class="container_12"><h1><%= link_to 'LOGOUT', logout_path %></h1><div><%=link_to 'Export to Excel', admin_partecipanti_url(:xls)%></div>
+        <div id="header" class="container_12"><h1><%= link_to 'LOGOUT', logout_path %></h1>
         </div>
 
         <div id="content" class="container_12">

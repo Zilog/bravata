@@ -6834,3 +6834,312 @@ Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-20 16:07:27) [
 Rendering template within layouts/application
 Rendering partecipanti/index
 Completed in 12ms (View: 7, DB: 2) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-20 18:04:31) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 52ms (View: 49, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:04:35) [GET]
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 2ms (DB: 1) | 302 Found [http://localhost/admin/partecipanti]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-07-20 18:04:36) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 93ms (View: 90, DB: 1) | 200 OK [http://localhost/session/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 18:04:43) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "login"=>"admin", "password"=>"xxxxxxxx", "commit"=>"Log in"}
+  [4;36;1mUser Load (6.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'admin') LIMIT 1[0m
+Failed login for 'admin' from 127.0.0.1 at 2010-07-20 16:04:43 UTC
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 122ms (View: 6, DB: 7) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 18:04:51) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "login"=>"admin", "password"=>"xxxxxxxx", "commit"=>"Log in"}
+  [4;35;1mUser Load (2.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'admin') LIMIT 1[0m
+Failed login for 'admin' from 127.0.0.1 at 2010-07-20 16:04:51 UTC
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 113ms (View: 73, DB: 4) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-20 18:04:55) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:05:04) [GET]
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://localhost/admin/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-07-20 18:05:04) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/session/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 18:05:12) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "login"=>"admin", "password"=>"xxxxxxxx", "commit"=>"Log in"}
+  [4;36;1mUser Load (1.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'admin') LIMIT 1[0m
+Failed login for 'admin' from 127.0.0.1 at 2010-07-20 16:05:12 UTC
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 23ms (View: 2, DB: 2) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 18:05:52) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "login"=>"admin", "password"=>"xxxxxxxx", "commit"=>"Log in"}
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'admin') LIMIT 1[0m
+Failed login for 'admin' from 127.0.0.1 at 2010-07-20 16:05:52 UTC
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 2, DB: 1) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:05:58) [GET]
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/admin/partecipanti]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-07-20 18:05:58) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 18:06:06) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "login"=>"admin", "password"=>"xxxxxxxx", "commit"=>"Log in"}
+  [4;36;1mUser Load (1.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'admin') LIMIT 1[0m
+Failed login for 'admin' from 127.0.0.1 at 2010-07-20 16:06:06 UTC
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 2, DB: 2) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 18:06:17) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "login"=>"simone", "password"=>"xxxxxxxx", "commit"=>"Log in"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'simone') LIMIT 1[0m
+Failed login for 'simone' from 127.0.0.1 at 2010-07-20 16:06:17 UTC
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 52ms (View: 2, DB: 1) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (4.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [4;35;1mSQL (5.1ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePartecipanti (20100713141808)
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (8.5ms)[0m   [0;1mCREATE TABLE "partecipanti" ("id" serial primary key, "nome" character varying(255), "cognome" character varying(255), "nick" character varying(255), "mail" character varying(255), "telefono" character varying(255), "adulti" integer, "bambini" integer, "venerdi" boolean, "sabato" boolean, "pranzo_domenica" boolean, "offroad" boolean, "targa" character varying(255), "modello_anno" character varying(255), "caparra" boolean, "versato" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100713141808')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Migrating to CreateUsers (20100713171404)
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mCREATE TABLE "users" ("id" serial primary key, "login" character varying(40), "name" character varying(100) DEFAULT E'', "email" character varying(100), "crypted_password" character varying(40), "salt" character varying(40), "created_at" timestamp, "updated_at" timestamp, "remember_token" character varying(40), "remember_token_expires_at" timestamp) [0m
+  [4;35;1mSQL (1.7ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_login" ON "users" ("login")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100713171404')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (1.9ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = E'admin') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = E'admin@admin.com') LIMIT 1[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mINSERT INTO "users" ("login", "name", "email", "crypted_password", "salt", "created_at", "updated_at", "remember_token", "remember_token_expires_at") VALUES(E'admin', E'tutto', E'admin@admin.com', E'e4a965702bde45a5137b13c6804de662e3ccabd5', E'f0114e25f6d59d6287db8b8007842f56927797bf', '2010-07-20 16:06:58.866399', '2010-07-20 16:06:58.866399', NULL, NULL) RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = E'simone') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = E'k5mmx@yahoo.com') LIMIT 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "users" ("login", "name", "email", "crypted_password", "salt", "created_at", "updated_at", "remember_token", "remember_token_expires_at") VALUES(E'simone', E'parte', E'k5mmx@yahoo.com', E'0f0bb4e2b7dc079b8a7bd61bca5eb854a3d4ac94', E'7ef0b06e4d656bda6bf382e855111a40ad0eaa3c', '2010-07-20 16:06:58.935914', '2010-07-20 16:06:58.935914', NULL, NULL) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-20 18:07:57) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 44ms (View: 41, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:08:00) [GET]
+  [4;36;1mPartecipante Load (3.0ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 151ms (View: 79, DB: 4) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-20 18:08:03) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 130ms (View: 105, DB: 1) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#create (for 127.0.0.1 at 2010-07-20 18:08:23) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "partecipante"=>{"nome"=>"dndfnoo", "cognome"=>"nsdkdsn", "nick"=>"", "mail"=>"dondf@dmdmd.com", "telefono"=>"dfsdsofn", "adulti"=>"1", "bambini"=>"0", "venerdi"=>"1", "sabato"=>"1", "pranzo_domenica"=>"1", "offroad"=>"1", "targa"=>"dmdmdm", "modello_anno"=>"domsdosdo"}, "commit"=>"ISCRIVITI"}
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mINSERT INTO "partecipanti" ("nome", "cognome", "nick", "mail", "telefono", "adulti", "bambini", "venerdi", "sabato", "pranzo_domenica", "offroad", "targa", "modello_anno", "caparra", "versato", "created_at", "updated_at") VALUES(E'dndfnoo', E'nsdkdsn', E'', E'dondf@dmdmd.com', E'dfsdsofn', 1, 0, 't', 't', 't', 't', E'dmdmdm', E'domsdosdo', NULL, NULL, '2010-07-20 16:08:23.847403', '2010-07-20 16:08:23.847403') RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/partecipanti
+Completed in 26ms (DB: 2) | 302 Found [http://localhost/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:08:23) [GET]
+  [4;36;1mPartecipante Load (2.3ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 18ms (View: 11, DB: 3) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:08:30) [GET]
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/admin/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-07-20 18:08:30) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/session/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 18:08:38) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "login"=>"admin", "password"=>"xxxxxxxx", "commit"=>"Log in"}
+  [4;35;1mUser Load (1.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'admin') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/admin/partecipanti
+Completed in 48ms (DB: 3) | 302 Found [http://localhost/session]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:08:38) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mPartecipante Load (0.9ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/admin
+Rendering admin/partecipanti/index
+Completed in 96ms (View: 31, DB: 2) | 200 OK [http://localhost/admin/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 18:08:46) [GET]
+
+ActionController::RoutingError (No route matches "/admin/partecipanti-xls" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index to xls (for 127.0.0.1 at 2010-07-20 18:08:53) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mPartecipante Load (0.7ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Completed in 16ms (View: 1, DB: 2) | 406 Not Acceptable [http://localhost/admin/partecipanti.xls]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index to xls (for 127.0.0.1 at 2010-07-20 18:09:21) [GET]
+  [4;36;1mUser Load (2.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mPartecipante Load (1.7ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering admin/partecipanti/index
+Completed in 65ms (View: 20, DB: 5) | 200 OK [http://localhost/admin/partecipanti.xls]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index to xls (for 127.0.0.1 at 2010-07-20 18:15:17) [GET]
+  [4;36;1mUser Load (2.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mPartecipante Load (1.6ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering admin/partecipanti/index
+Completed in 112ms (View: 35, DB: 5) | 200 OK [http://localhost/admin/partecipanti.xls]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:18:50) [GET]
+  [4;36;1mUser Load (2.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mPartecipante Load (2.2ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/admin
+Rendering admin/partecipanti/index
+Completed in 318ms (View: 123, DB: 5) | 200 OK [http://localhost/admin/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index (for 127.0.0.1 at 2010-07-20 18:19:17) [GET]
+  [4;36;1mUser Load (1.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mPartecipante Load (0.9ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/admin
+Rendering admin/partecipanti/index
+Completed in 38ms (View: 17, DB: 2) | 200 OK [http://localhost/admin/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing Admin::PartecipantiController#index to xls (for 127.0.0.1 at 2010-07-20 18:19:20) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mPartecipante Load (0.9ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering admin/partecipanti/index
+Completed in 86ms (View: 64, DB: 2) | 200 OK [http://localhost/admin/partecipanti.xls]

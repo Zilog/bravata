@@ -11,6 +11,8 @@ class Admin::PartecipantiController < ApplicationController
     respond_to do |format|
       format.html {render :layout => 'admin' } # index.html.erb 
       format.xml  { render :xml => @partecipanti }
+      format.xls
+
     end
   end
 
