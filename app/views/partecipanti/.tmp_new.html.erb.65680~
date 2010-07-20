@@ -1,0 +1,62 @@
+
+<script language="javascript">
+function enableField()
+{
+document.getElementById('partecipante_targa').disabled = !(document.getElementById('partecipante_offroad').checked);
+document.getElementById('partecipante_modello_anno').disabled = !(document.getElementById('partecipante_offroad').checked);
+}
+</script>
+<h1>Compila l'iscrizione </h1>
+
+<% form_for(@partecipante) do |f| %>
+  <%= f.error_messages %>
+
+
+CHI SIETE ?
+<table width="900" border="1">
+    <tr>
+        <td>*<%= f.label :nome %><br /><%= f.text_field :nome %></td>
+        <td>*<%= f.label :cognome %><br /><%= f.text_field :cognome %></td>
+        <td><%= f.label :nick %><br /><%= f.text_field :nick %></td>
+    </tr>
+    <tr>
+        <td>*<%= f.label :mail %><br /><%= f.text_field :mail %></td>
+        <td>*<%= f.label :telefono %><br /><%= f.text_field :telefono %></td>
+		<td>&nbsp;</td>
+    </tr>
+</table>
+
+QUANTI SIETE?
+<table width="600" border="1">
+    <tr>
+        <td>*<%= f.label :adulti %><br /><%= f.text_field :adulti %></td>
+        <td><%= f.label :bambini %><%= select_tag(:bambini, '<option value=0>0</option><option value=1>1</option>') %> </td>
+    </tr>
+</table>
+
+QUANDO VENITE?
+<table width="300" border="1">
+    <tr>
+        <td><%= f.label :venerdi %><br /><%= f.check_box :venerdi %></td>
+        <td><%= f.label :sabato %><br /><%= f.check_box :sabato %></td>
+        <td><%= f.label :pranzo_domenica %><br /><%= f.check_box :pranzo_domenica %></td>
+    </tr>
+</table>
+
+
+FATE OFF?<%=  params[:offroad] %>xx
+<table width="300" border="1">
+    <tr>
+        <td><%= f.label :offroad %><br /><%= f.check_box :offroad , :onchange => "enableField();" %></td>
+        <td><%= f.label :targa %><br /><%= f.text_field :targa , :disabled => true%></td>
+        <td><%= f.label :modello_anno %><br /><%= f.text_field :modello_anno , :disabled => true%></td>
+    </tr>
+</table>
+
+<br />
+UN FIORINO
+<br />
+    <%= f.submit 'ISCRIVITI' %>
+  </p>
+<% end %>
+

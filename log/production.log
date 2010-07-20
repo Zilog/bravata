@@ -1,0 +1,42 @@
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-16 16:13:38) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/percorso]
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-16 16:13:40) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/percorso]
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-16 16:13:42) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/contatti]
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-16 16:13:43) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 147ms (View: 74, DB: 3) | 200 OK [http://localhost/partecipanti]
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-16 16:13:44) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-16 16:15:18) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/contatti]
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-16 16:15:19) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/albergo]

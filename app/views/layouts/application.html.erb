@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <title><%= controller.action_name %></title>
+        <%= stylesheet_link_tag 'scaffold' %>
+        <%= stylesheet_link_tag '960' %>
+    </head>
+    <body>
+        <div id="header" class="container_12">
+        </div>
+        <div id="sidebar" class="container_12">
+        	<div class="grid_12">
+            <ul id="sidebar-items" >
+                <li>
+                    <h3></h3>
+                    <ul class="links" style="width:960px">
+                        <li>
+                            <a href="/albergo">ALBERGO</a>
+                        </li>
+                        <li>
+                            <a href="/percorso">PERCORSO</a>
+                        </li>
+                        <li>
+                            <a href="/contatti">CONTATTI</a>
+                        </li>
+                        <li>
+                            <a href="/partecipanti">PARTECIPANTI</a>
+                        </li>
+                        <li>
+                            <a href="/partecipanti/new">ISCRIVITI</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+			</div>
+        </div>
+        <div id="content" class="container_12">
+            <div id="yield" class="grid_12">
+                <p style="color: green">
+                    <%= flash[:notice] %>
+                </p>
+                <%= yield %>
+            </div>
+        </div>
+        <div id="footer" class="container_12">
+        </div>
+    </body>
+</html>

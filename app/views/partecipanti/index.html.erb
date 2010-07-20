@@ -1,0 +1,37 @@
+<h1>CHI PARTECIPA</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Cognome</th>
+    <th>Nick</th>
+    <th>Adulti</th>
+    <th>Bambini</th>
+    <th>Venerdi</th>
+    <th>Sabato</th>
+    <th>Pranzo domenica</th>
+    <th>Offroad</th>
+    <th>Pagato</th>
+  </tr>
+
+<% @partecipanti.each do |partecipante| %>
+  <tr>
+    <td><%=h partecipante.nome %></td>
+    <td><%=h partecipante.cognome %></td>
+    <td><%=h partecipante.nick %></td>
+    <td><%=h partecipante.adulti %></td>
+    <td><%=h partecipante.bambini %></td>
+    <td><%=h partecipante.venerdi %></td>
+    <td><%=h partecipante.sabato %></td>
+    <td><%=h partecipante.pranzo_domenica %></td>
+    <td><%=h partecipante.offroad %></td>
+    <td><%=h partecipante.caparra %></td>
+
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'ISCRIVITI', new_partecipante_path %>

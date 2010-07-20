@@ -1,0 +1,71 @@
+<h1>New partecipante</h1>
+
+<% form_for(@partecipante) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label :cognome %><br />
+    <%= f.text_field :cognome %>
+  </p>
+  <p>
+    <%= f.label :nick %><br />
+    <%= f.text_field :nick %>
+  </p>
+  <p>
+    <%= f.label :mail %><br />
+    <%= f.text_field :mail %>
+  </p>
+  <p>
+    <%= f.label :telefono %><br />
+    <%= f.text_field :telefono %>
+  </p>
+  <p>
+    <%= f.label :adulti %><br />
+    <%= f.text_field :adulti %>
+  </p>
+  <p>
+    <%= f.label :bambini %><br />
+    <%= f.text_field :bambini %>
+  </p>
+  <p>
+    <%= f.label :venerdi %><br />
+    <%= f.check_box :venerdi %>
+  </p>
+  <p>
+    <%= f.label :sabato %><br />
+    <%= f.check_box :sabato %>
+  </p>
+  <p>
+    <%= f.label :pranzo_domenica %><br />
+    <%= f.check_box :pranzo_domenica %>
+  </p>
+  <p>
+    <%= f.label :offroad %><br />
+    <%= f.check_box :offroad %>
+  </p>
+  <p>
+    <%= f.label :targa %><br />
+    <%= f.text_field :targa %>
+  </p>
+  <p>
+    <%= f.label :modello_anno %><br />
+    <%= f.text_field :modello_anno %>
+  </p>
+  <p>
+    <%= f.label :caparra %><br />
+    <%= f.check_box :caparra %>
+  </p>
+  <p>
+    <%= f.label :versato %><br />
+    <%= f.text_field :versato %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', partecipanti_path %>

@@ -1,0 +1,47 @@
+<h1>Standings</h1>
+<%= @comment%>
+
+
+<% if @users %>
+
+<table>
+  <tr>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Password</th>
+    <th>Score total</th>
+    <th>Score checkin</th>
+    <th>Score sent conf</th>
+    <th>Score rcvd conf</th>
+    <th>Score event</th>
+    <th>N checkin</th>
+    <th>N sent conf</th>
+    <th>N rcvd conf</th>
+    <th>N event</th>
+  </tr>
+<% @users.each do |user| %>
+  <tr>
+    <td><%=h user.username %></td>
+    <td><%=h user.email %></td>
+    <td><%=h user.password %></td>
+    <td><%=h user.score_total %></td>
+    <td><%=h user.score_checkin %></td>
+    <td><%=h user.score_sent_conf %></td>
+    <td><%=h user.score_rcvd_conf %></td>
+    <td><%=h user.score_event %></td>
+    <td><%=h user.n_checkin %></td>
+    <td><%=h user.n_sent_conf %></td>
+    <td><%=h user.n_rcvd_conf %></td>
+    <td><%=h user.n_event %></td>
+  </tr>
+<%end %>
+</table>
+<% else %>
+	non ci sono utenti
+
+<%end %>
+
+
+
+<%= link_to 'privacy', privacy_path %>
+<%= link_to 'terms', terms_path %>

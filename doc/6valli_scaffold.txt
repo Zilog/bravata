@@ -1,0 +1,106 @@
+ ActiveSupport::Inflector.inflections do |inflect|
+   inflect.irregular 'partecipante', 'partecipanti'
+ end
+
+partecipante nome:string cognome:string nick:string mail:string telefono:string adulti:integer bambini:integer venerdi:boolean sabato:boolean pranzo_domenica:boolean offroad:boolean targa:string modello_anno:string  caparra:boolean versato:integer 
+
+
+development:
+    host: localhost  
+    adapter: postgresql
+    encoding: unicode
+    database: 6valli_development
+    pool: 5
+    username: postgres    
+    password: postgres
+
+test:
+    host: localhost  
+    adapter: postgresql
+    encoding: unicode
+    database: 6valli_test
+    pool: 5
+    username: postgres    
+    password: postgres
+
+production:
+    host: localhost  
+    adapter: postgresql
+    encoding: unicode
+    database: 6valli_production
+    pool: 5
+    username: postgres    
+    password: postgres
+
+
+class Partecipante < ActiveRecord::Base
+  
+  validates_presence_of :nome, :cognome, :mail, :telefono, :adulti , :message => "non puo' essere vuoto"
+  validates_presence_of :targa, :modello_anno ,:if => :in_fuoristrada? ,:message => "non puo' essere vuoto"
+  validates_numericality_of :adulti, :bambini, :only_integer => true, :message => "solo numeri interi" 
+  validates_format_of :mail, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :message => "non valida"
+  validates_length_of :nome, :cognome, :within => 3..20, :too_long => "inserire al massimo 20 caratteri", :too_short => "inserire almeno 3 caratteri"
+  
+  
+  def in_fuoristrada?
+    offroad == true
+  end
+end
+
+
+-----------------------application.html.erb-----------------------------------------------------------------------------------------
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <title><%= controller.action_name %></title>
+        <%= stylesheet_link_tag 'scaffold' %>
+        <%= stylesheet_link_tag '960' %>
+    </head>
+    <body>
+        <div id="header" class="container_12">
+        </div>
+        <div id="content" class="container_12">
+            <div id="sidebar" class="grid_3 ">
+            </div>
+            <div id="yield" class="grid_9">
+                <p style="color: green">
+                    <%= flash[:notice] %>
+                </p>
+                <%= yield %>
+            </div>
+        </div>
+        <div id="footer" class="container_12">
+        </div>
+    </body>
+</html>
+-----------------------------------------------------------------------------
+
+
+git clone git://github.com/technoweenie/restful-authentication.git restful_authentication (poi spostare in vendors/plugins)
+./script/generate authenticated user sessions
+rake db:migrate
+
+----------------------------lib/task/populate.rake-----------------
+namespace :db do
+  desc "fill database"
+  task :populate => :environment do
+    user = User.new(:login => "admin", :email => "admin@admin.com", :name => "tutto", :password => "xxxxxxxx", :password_confirmation => "xxxxxxxx")
+    user.save  
+    user = User.new(:login => "simone", :email => "k5mmx@yahoo.com", :name => "parte", :password => "xxxxxxxx", :password_confirmation => "xxxxxxxx")
+    user.save  
+  end
+end
+
+-----------------------------------------------------------
+rake db:populate
+
+
+da User controller ad Application Controller
+  # Be sure to include AuthenticationSystem in Application Controller instead
+  # include AuthenticatedSystem
+
+
+
+
+

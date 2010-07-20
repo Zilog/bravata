@@ -1,0 +1,35 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nome: MyString
+  cognome: MyString
+  nick: MyString
+  mail: MyString
+  telefono: MyString
+  adulti: 1
+  bambini: 1
+  venerdi: false
+  sabato: false
+  pranzo_domenica: false
+  offroad: false
+  targa: MyString
+  modello_anno: MyString
+  caparra: false
+  versato: 1
+
+two:
+  nome: MyString
+  cognome: MyString
+  nick: MyString
+  mail: MyString
+  telefono: MyString
+  adulti: 1
+  bambini: 1
+  venerdi: false
+  sabato: false
+  pranzo_domenica: false
+  offroad: false
+  targa: MyString
+  modello_anno: MyString
+  caparra: false
+  versato: 1

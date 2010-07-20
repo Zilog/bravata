@@ -1,0 +1,7 @@
+<h1>Admin Dashboard</h1>
+
+<%= link_to 'Users', admin_users_path  %>  | 
+<%= link_to 'Events', admin_events_path  %> |
+<%= link_to 'Checkins', admin_checkins_path  %> |
+<%= link_to 'Confirmations', admin_confirmations_path  %>
+

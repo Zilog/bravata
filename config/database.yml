@@ -1,0 +1,26 @@
+development:
+    host: localhost  
+    adapter: postgresql
+    encoding: unicode
+    database: 6valli_development
+    pool: 5
+    username: postgres    
+    password: postgres
+
+test:
+    host: localhost  
+    adapter: postgresql
+    encoding: unicode
+    database: 6valli_test
+    pool: 5
+    username: postgres    
+    password: postgres
+
+production:
+    host: localhost  
+    adapter: postgresql
+    encoding: unicode
+    database: 6valli_production
+    pool: 5
+    username: postgres    
+    password: postgres

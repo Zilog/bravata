@@ -1,0 +1,5 @@
+<h1>home</h1>
+
+<%= link_to 'privacy', privacy_path %>
+<%= link_to 'terms', terms_path %>
+<%= link_to 'contacts', contacts_path %>

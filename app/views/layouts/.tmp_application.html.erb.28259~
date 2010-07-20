@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Your title here</title>
+</head>
+<body>
+                
+
+<div id="header" class="container_12"></div>
+                
+
+<div id="content" class="container_12">
+
+<div id="sidebar" class="grid_3 ">
+</div>
+
+<div id="yeld" class="grid_9">
+</div>
+
+</div>
+
+                
+
+<div id="footer" class="container_12"></div>
+            
+</body>
+</html>

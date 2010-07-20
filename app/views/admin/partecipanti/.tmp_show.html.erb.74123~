@@ -1,0 +1,78 @@
+<p>
+  <b>Nome:</b>
+  <%=h @partecipante.nome %>
+</p>
+
+<p>
+  <b>Cognome:</b>
+  <%=h @partecipante.cognome %>
+</p>
+
+<p>
+  <b>Nick:</b>
+  <%=h @partecipante.nick %>
+</p>
+
+<p>
+  <b>Mail:</b>
+  <%=h @partecipante.mail %>
+</p>
+
+<p>
+  <b>Telefono:</b>
+  <%=h @partecipante.telefono %>
+</p>
+
+<p>
+  <b>Adulti:</b>
+  <%=h @partecipante.adulti %>
+</p>
+
+<p>
+  <b>Bambini:</b>
+  <%=h @partecipante.bambini %>
+</p>
+
+<p>
+  <b>Venerdi:</b>
+  <%=h @partecipante.venerdi %>
+</p>
+
+<p>
+  <b>Sabato:</b>
+  <%=h @partecipante.sabato %>
+</p>
+
+<p>
+  <b>Pranzo domenica:</b>
+  <%=h @partecipante.pranzo_domenica %>
+</p>
+
+<p>
+  <b>Offroad:</b>
+  <%=h @partecipante.offroad %>
+</p>
+
+<p>
+  <b>Targa:</b>
+  <%=h @partecipante.targa %>
+</p>
+
+<p>
+  <b>Modello anno:</b>
+  <%=h @partecipante.modello_anno %>
+</p>
+
+<p>
+  <b>Caparra:</b>
+  <%=h @partecipante.caparra %>
+</p>
+
+<p>
+  <b>Versato:</b>
+  <%=h @partecipante.versato %>
+</p>
+
+
+<%= link_to 'Edit', edit_partecipante_path(@partecipante) %> |
+<%= link_to 'Back', partecipanti_path %>
