@@ -1,5 +1,4 @@
-<%= render :partial => "statics/pagamento" %> 
-
+<h1>CHI PARTECIPA</h1>
 
 <table>
   <tr>
@@ -12,7 +11,7 @@
     <th>Sabato</th>
     <th>Pranzo domenica</th>
     <th>Offroad</th>
-    <th>Confermato</th>
+    <th>Pagato</th>
   </tr>
 
 <% @partecipanti.each do |partecipante| %>

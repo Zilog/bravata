@@ -6,17 +6,13 @@ document.getElementById('partecipante_targa').disabled = !(document.getElementBy
 document.getElementById('partecipante_modello_anno').disabled = !(document.getElementById('partecipante_offroad').checked);
 }
 </script>
-
-
-<%= render :partial => "statics/pagamento" %> 
-
-
 <h1>Compila l'iscrizione </h1>
+
 <% form_for(@partecipante) do |f| %>
   <%= f.error_messages %>
 
-<br />
-<br />
+
+CHI SIETE ?
 <table width="900" border="1">
     <tr>
         <td>*<%= f.label :nome %><br /><%= f.text_field :nome %></td>
@@ -30,8 +26,7 @@ document.getElementById('partecipante_modello_anno').disabled = !(document.getEl
     </tr>
 </table>
 
-<br />
-
+QUANTI SIETE?
 <table width="600" border="1">
     <tr>
 		<td>*<%= f.label :adulti %><%= select(:partecipante ,:adulti, options_for_select([['1',1], ['2',2], ['3',3],['4', 4]], @adulti)) %> </td>
@@ -39,7 +34,7 @@ document.getElementById('partecipante_modello_anno').disabled = !(document.getEl
     </tr>
 </table>
 
-<br />
+QUANDO VENITE?
 <table width="300" border="1">
     <tr>
         <td><%= f.label :venerdi %><br /><%= f.check_box :venerdi %></td>
@@ -49,7 +44,7 @@ document.getElementById('partecipante_modello_anno').disabled = !(document.getEl
 </table>
 
 
-<br />
+FATE OFF?
 <table width="300" border="1">
     <tr>
         <td><%= f.label :offroad %><br /><%= f.check_box :offroad , :onchange => "enableField();" %></td>
@@ -59,10 +54,9 @@ document.getElementById('partecipante_modello_anno').disabled = !(document.getEl
 </table>
 
 <br />
-<br />
+UN FIORINO
 <br />
     <%= f.submit 'ISCRIVITI' %>
   </p>
 <% end %>
 
-<%= render :partial => "statics/pagamento" %> 

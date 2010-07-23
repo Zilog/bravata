@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <title>BravaTA 24/26 Settembre 2010  <%= controller.action_name %></title>
+        <title><%= controller.action_name %></title>
         <%= stylesheet_link_tag 'scaffold' %>
         <%= stylesheet_link_tag '960' %>
     </head>
     <body>
-        <div id="header" class="container_12"><h1>BravaTA 24/26 Settembre 2010</h1>
+        <div id="header" class="container_12">
         </div>
         <div id="sidebar" class="container_12">
         	<div class="grid_12">

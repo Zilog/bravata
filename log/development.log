@@ -7143,3 +7143,739 @@ Processing Admin::PartecipantiController#index to xls (for 127.0.0.1 at 2010-07-
   [4;35;1mPartecipante Load (0.9ms)[0m   [0mSELECT * FROM "partecipanti" [0m
 Rendering admin/partecipanti/index
 Completed in 86ms (View: 64, DB: 2) | 200 OK [http://localhost/admin/partecipanti.xls]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-23 15:34:58) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 17ms (View: 15, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:35:05) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 15:35:13) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 15:35:14) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:35:16) [GET]
+  [4;36;1mPartecipante Load (8.4ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 109ms (View: 95, DB: 9) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 15:35:18) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:35:35) [GET]
+  [4;35;1mPartecipante Load (1.3ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 12ms (View: 7, DB: 2) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:37:36) [GET]
+  [4;36;1mPartecipante Load (3.0ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 45ms (View: 33, DB: 3) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 15:37:44) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 15:38:11) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 142ms (View: 121, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:38:48) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:40:10) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 23ms (View: 19, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:40:39) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:41:12) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 99ms (View: 96, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:41:35) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:42:01) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-23 15:42:06) [GET]
+
+ActionController::RoutingError (No route matches "/www.hotelmilano.hm" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:42:36) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:48:24) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:49:16) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:49:43) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:50:18) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:50:36) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:51:02) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:51:27) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 15:52:45) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 15:52:47) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:52:49) [GET]
+  [4;35;1mPartecipante Load (3.0ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 31ms (View: 18, DB: 3) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 15:52:58) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 31ms (View: 11, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:53:01) [GET]
+  [4;36;1mPartecipante Load (1.1ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 15:53:02) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 30ms (View: 12, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#create (for 127.0.0.1 at 2010-07-23 15:53:07) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "partecipante"=>{"nome"=>"", "cognome"=>"", "nick"=>"", "mail"=>"", "telefono"=>"", "adulti"=>"1", "bambini"=>"0", "venerdi"=>"0", "sabato"=>"0", "pranzo_domenica"=>"0", "offroad"=>"0"}, "commit"=>"ISCRIVITI"}
+  [4;35;1mSQL (0.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 30ms (View: 17, DB: 1) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#create (for 127.0.0.1 at 2010-07-23 15:55:29) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "partecipante"=>{"nome"=>"", "cognome"=>"", "nick"=>"", "mail"=>"", "telefono"=>"", "adulti"=>"1", "bambini"=>"0", "venerdi"=>"0", "sabato"=>"0", "pranzo_domenica"=>"0", "offroad"=>"0"}, "commit"=>"ISCRIVITI"}
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 28ms (View: 16, DB: 1) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#create (for 127.0.0.1 at 2010-07-23 15:56:06) [POST]
+  Parameters: {"authenticity_token"=>"rs8kvsx7WdMo4hxAtkG0slibWxGCbrp2N9s+jXklLic=", "partecipante"=>{"nome"=>"simone", "cognome"=>"rambaldi", "nick"=>"", "mail"=>"k5mmx@yahoo.com", "telefono"=>"123456", "adulti"=>"2", "bambini"=>"0", "venerdi"=>"1", "sabato"=>"1", "pranzo_domenica"=>"1", "offroad"=>"1", "targa"=>"ah11431", "modello_anno"=>"ta98"}, "commit"=>"ISCRIVITI"}
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (2.7ms)[0m   [0;1mINSERT INTO "partecipanti" ("nome", "cognome", "nick", "mail", "telefono", "adulti", "bambini", "venerdi", "sabato", "pranzo_domenica", "offroad", "targa", "modello_anno", "caparra", "versato", "created_at", "updated_at") VALUES(E'simone', E'rambaldi', E'', E'k5mmx@yahoo.com', E'123456', 2, 0, 't', 't', 't', 't', E'ah11431', E'ta98', NULL, NULL, '2010-07-23 13:56:06.079529', '2010-07-23 13:56:06.079529') RETURNING "id"[0m
+  [4;35;1mSQL (3.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/partecipanti
+Completed in 27ms (DB: 7) | 302 Found [http://localhost/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:56:06) [GET]
+  [4;36;1mPartecipante Load (1.2ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:57:12) [GET]
+  [4;35;1mPartecipante Load (3.1ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 53ms (View: 40, DB: 3) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 15:57:17) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:57:18) [GET]
+  [4;36;1mPartecipante Load (1.3ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 13ms (View: 9, DB: 2) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 15:57:20) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 15:57:22) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:57:23) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-23 15:57:28) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:57:32) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 15:57:34) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 15:57:36) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:57:38) [GET]
+  [4;35;1mPartecipante Load (1.4ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 12ms (View: 7, DB: 2) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 15:57:44) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 38ms (View: 21, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:57:54) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-23 15:58:54) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 15:59:21) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 15:59:48) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 15:59:52) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/contatti]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 15:59:57) [GET]
+  [4;36;1mPartecipante Load (1.2ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 12ms (View: 8, DB: 2) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:00:01) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 27ms (View: 18, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 16:00:05) [GET]
+  [4;35;1mPartecipante Load (3.2ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 34ms (View: 20, DB: 4) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 16:00:19) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 16:00:21) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 16:00:27) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 16:00:28) [GET]
+  [4;36;1mPartecipante Load (3.1ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 34ms (View: 21, DB: 3) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:00:30) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 16:00:44) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 16:00:45) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 16:00:48) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 16:00:50) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 16:00:51) [GET]
+  [4;35;1mPartecipante Load (3.1ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Completed in 105ms (View: 21, DB: 3) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:00:52) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-23 16:18:15) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:18:18) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 117ms (View: 96, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:19:04) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:19:25) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:28:05) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Rendered statics/_pagamento (0.5ms)
+Completed in 30ms (View: 23, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:28:52) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Rendered statics/_pagamento (0.1ms)
+Rendered statics/_pagamento (0.2ms)
+Completed in 61ms (View: 41, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 16:28:56) [GET]
+  [4;36;1mPartecipante Load (1.4ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Rendered statics/_pagamento (0.1ms)
+Completed in 18ms (View: 13, DB: 2) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 16:29:21) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.7ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 16:29:22) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 93ms (View: 19, DB: 1) | 200 OK [http://localhost/percorso]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 16:29:24) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 16:29:53) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 16:30:03) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 16:30:08) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 16:30:09) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 16:30:11) [GET]
+  [4;35;1mPartecipante Load (1.2ms)[0m   [0mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Rendered statics/_pagamento (0.0ms)
+Completed in 12ms (View: 7, DB: 2) | 200 OK [http://localhost/partecipanti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:30:13) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Rendered statics/_pagamento (0.0ms)
+Rendered statics/_pagamento (0.1ms)
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-23 16:43:06) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-23 16:43:08) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-07-23 16:43:09) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-23 16:43:11) [GET]
+  [4;36;1mPartecipante Load (1.2ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Rendered statics/_pagamento (0.0ms)
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-23 16:43:20) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Rendered statics/_pagamento (0.0ms)
+Rendered statics/_pagamento (0.1ms)
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/partecipanti/new]
