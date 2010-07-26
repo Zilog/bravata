@@ -1,7 +1,8 @@
 <%= render :partial => "statics/pagamento" %> 
 
-
-<table>
+<br>
+<br>
+<table border="1">
   <tr>
     <th>Nome</th>
     <th>Cognome</th>
@@ -22,11 +23,11 @@
     <td><%=h partecipante.nick %></td>
     <td><%=h partecipante.adulti %></td>
     <td><%=h partecipante.bambini %></td>
-    <td><%=h partecipante.venerdi %></td>
-    <td><%=h partecipante.sabato %></td>
-    <td><%=h partecipante.pranzo_domenica %></td>
-    <td><%=h partecipante.offroad %></td>
-    <td><%=h partecipante.caparra %></td>
+    <td><img src="/images/<%=h partecipante.venerdi %>.gif" alt="venerdi" /></td>
+    <td><img src="/images/<%=h partecipante.sabato %>.gif" alt="sabato" /></td>
+    <td><img src="/images/<%=h partecipante.pranzo_domenica %>.gif" alt="domenica" /></td>
+    <td><img src="/images/<%=h partecipante.offroad %>.gif" alt="offroad" /></td>
+    <td><img src="/images/<%=h partecipante.caparra %>.gif" alt="confermato" /></td>
 
 
   </tr>

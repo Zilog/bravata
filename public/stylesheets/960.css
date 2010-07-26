@@ -351,3 +351,8 @@
 .clearfix {
 	display: block;
 }
+
+#header{
+	background: url(/images/bravatas.gif) no-repeat;
+	height: 120px;
+}

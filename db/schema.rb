@@ -18,15 +18,15 @@ ActiveRecord::Schema.define(:version => 20100713171404) do
     t.string   "mail"
     t.string   "telefono"
     t.integer  "adulti"
-    t.integer  "bambini"
-    t.boolean  "venerdi"
-    t.boolean  "sabato"
-    t.boolean  "pranzo_domenica"
-    t.boolean  "offroad"
+    t.integer  "bambini",         :default => 0
+    t.boolean  "venerdi",         :default => false
+    t.boolean  "sabato",          :default => false
+    t.boolean  "pranzo_domenica", :default => false
+    t.boolean  "offroad",         :default => false
     t.string   "targa"
     t.string   "modello_anno"
-    t.boolean  "caparra"
-    t.integer  "versato"
+    t.boolean  "caparra",         :default => false
+    t.integer  "versato",         :default => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
