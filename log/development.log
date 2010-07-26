@@ -7879,3 +7879,85 @@ Rendering partecipanti/new
 Rendered statics/_pagamento (0.0ms)
 Rendered statics/_pagamento (0.1ms)
 Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-26 13:15:48) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 53ms (View: 51, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-26 13:15:51) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-26 13:15:54) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-26 13:15:54) [GET]
+
+ActionController::RoutingError (No route matches "/%5Cimages%5Cpercorso_sabato.png" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-26 13:16:10) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-26 13:16:10) [GET]
+
+ActionController::RoutingError (No route matches "/%5Cimages%5Cpercorso_sabato.png" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-26 13:16:29) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-26 13:17:09) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-07-26 13:17:38) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/percorso]
