@@ -8816,3 +8816,41 @@ Processing StaticsController#albergo (for 127.0.0.1 at 2010-07-26 23:44:14) [GET
 Rendering template within layouts/application
 Rendering statics/albergo
 Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-07-27 17:14:08) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 52ms (View: 49, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#index (for 127.0.0.1 at 2010-07-27 17:14:12) [GET]
+  [4;36;1mPartecipante Load (18.4ms)[0m   [0;1mSELECT * FROM "partecipanti" [0m
+Rendering template within layouts/application
+Rendering partecipanti/index
+Rendered statics/_pagamento (1.2ms)
+Completed in 161ms (View: 130, DB: 19) | 200 OK [http://localhost/partecipanti]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-27 17:14:19) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Rendered statics/_pagamento (0.1ms)
+Rendered statics/_pagamento (0.3ms)
+Completed in 65ms (View: 46, DB: 1) | 200 OK [http://localhost/partecipanti/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing PartecipantiController#new (for 127.0.0.1 at 2010-07-27 17:16:27) [GET]
+Rendering template within layouts/application
+Rendering partecipanti/new
+Rendered statics/_pagamento (0.5ms)
+Rendered statics/_pagamento (0.1ms)
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/partecipanti/new]
