@@ -8854,3 +8854,75 @@ Rendering partecipanti/new
 Rendered statics/_pagamento (0.5ms)
 Rendered statics/_pagamento (0.1ms)
 Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/partecipanti/new]
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-08-02 14:53:12) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 98ms (View: 96, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-08-02 14:53:14) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-08-02 14:53:15) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 22ms (View: 19, DB: 1) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-08-02 14:53:17) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#contatti (for 127.0.0.1 at 2010-08-02 14:53:18) [GET]
+Rendering template within layouts/application
+Rendering statics/contatti
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/contatti]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#home (for 127.0.0.1 at 2010-08-02 14:53:22) [GET]
+Rendering template within layouts/application
+Rendering statics/home
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#albergo (for 127.0.0.1 at 2010-08-02 14:53:24) [GET]
+Rendering template within layouts/application
+Rendering statics/albergo
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/albergo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-08-02 14:53:25) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/percorso]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StaticsController#percorso (for 127.0.0.1 at 2010-08-02 14:55:24) [GET]
+Rendering template within layouts/application
+Rendering statics/percorso
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/percorso]
